@@ -22,7 +22,7 @@ content:
     path: content/projects.json
     fields:
       - { name: title, label: Title, type: string }
-      - name: items
+      - name: entries
         label: Items
         type: object
         list: true
