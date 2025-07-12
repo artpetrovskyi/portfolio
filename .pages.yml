@@ -18,7 +18,13 @@ content:
         fields:
           - { name: title, label: Title, type: string, required: true }
           - { name: link, label: Link, type: string, required: true }
-          - { name: icon, label: Icon, type: image, required: true, options: { media: icons, categories: [icon], extensions: [svg] } }
+          - name: icon
+            label: Icon
+            type: image
+            required: true
+            options:
+              media: icons
+              extensions: [svg]
 
   - name: projects
     label: Projects
