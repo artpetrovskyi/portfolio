@@ -1,15 +1,28 @@
 {
-  "title": "Get in Touch",
+  "title": {
+    "en": "My contacts",
+    "ru": "Мои контакты"
+  },
   "items": [
     {
-      "title": "GitHub",
-      "link": "https://github.com/username",
-      "icon": "github.svg"
+      "title": "Telegram",
+      "link": "https://t.me/artpetrovskyi",
+      "icon": "telegram.svg"
     },
     {
       "title": "Email",
-      "link": "mailto:example@email.com",
+      "link": "artpetrovskyi@gmail.com",
       "icon": "email.svg"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/artpetrovskyi/",
+      "icon": "linkedin.svg"
+    },
+    {
+      "title": "GitHub",
+      "link": "https://github.com/artpetrovskyi",
+      "icon": "github.svg"
     }
   ]
 }
