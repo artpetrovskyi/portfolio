@@ -34,7 +34,8 @@ content:
             type: image
             required: true
             options:
-              media: vectors
+              media: images/vectors
+              categories: [image]
               extensions: [svg]
 
   - name: projects
