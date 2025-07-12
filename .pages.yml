@@ -34,7 +34,7 @@ content:
             type: image
             required: true
             options:
-              media: images/vectors
+              media: vectors
               categories: [image]
               extensions: [svg]
 
