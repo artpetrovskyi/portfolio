@@ -4,8 +4,8 @@ media:
     input: images
     output: /images
 
-  - name: vector_assets
-    label: Vector Assets
+  - name: vectors
+    label: Vectors
     input: images/icons
     output: /images/icons
     extensions: [svg]
