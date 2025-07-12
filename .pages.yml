@@ -14,18 +14,18 @@ content:
           - { name: title, label: Title, type: string, required: true }
           - { name: link, label: Link, type: string, required: true }
 
-  - name: works
-    label: Works
+  - name: projects
+    label: Projects
     type: file
-    path: content/works.json
+    path: content/projects.json
     fields:
       - { name: title, label: Title, type: string }
-      - name: entries
-        label: Entries
+      - name: items
+        label: Items
         type: object
         list: true
         fields:
+          - { name: image, label: Image, type: image, required: true }
           - { name: title, label: Title, type: string, required: true }
-          - { name: description, label: Description, type: string, required: true }
-          - { name: image, label: Image, type: image }
           - { name: body, label: Body, type: rich-text, required: true }
+          - { name: link, label: Link, type: string, required: true }
