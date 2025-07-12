@@ -13,8 +13,6 @@ content:
         fields:
           - { name: title, label: Title, type: string, required: true }
           - { name: link, label: Link, type: string, required: true }
-          - { name: icon, label: Icon, type: image,
-              options: { media: icons, extensions: [svg] } }
 
   - name: projects
     label: Projects
@@ -27,7 +25,7 @@ content:
         type: object
         list: true
         fields:
-          - { name: image, label: Image, type: image }
+          - { name: image, label: Image, type: image, required: true }
           - { name: title, label: Title, type: string, required: true }
           - { name: body, label: Body, type: rich-text, required: true }
           - { name: link, label: Link, type: string, required: true }
