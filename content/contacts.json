@@ -1,0 +1,15 @@
+{
+  "title": "Get in Touch",
+  "items": [
+    {
+      "title": "GitHub",
+      "link": "https://github.com/username",
+      "icon": "github.svg"
+    },
+    {
+      "title": "Email",
+      "link": "mailto:example@email.com",
+      "icon": "email.svg"
+    }
+  ]
+}
