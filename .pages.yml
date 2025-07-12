@@ -23,7 +23,7 @@ content:
             type: image
             required: true
             options:
-              media: icons
+              media: content/icons
               extensions: [svg]
 
   - name: projects
