@@ -8,7 +8,7 @@ media:
     label: Vectors
     input: images/icons
     output: /images/icons
-    path: images/icons
+    path: ./images/icons
     extensions: [svg]
     categories: [image]
     
