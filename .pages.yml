@@ -5,7 +5,12 @@ content:
     type: file
     path: content/contacts.json
     fields:
-      - { name: title, label: Title, type: string }
+      - name: title
+        label: Title
+        type: object
+        fields:
+          - { name: en, label: English, type: string, required: true }
+          - { name: ru, label: Russian, type: string, required: true }
       - name: items
         label: Items
         type: object
@@ -19,13 +24,28 @@ content:
     type: file
     path: content/projects.json
     fields:
-      - { name: title, label: Title, type: string }
+      - name: title
+        label: Title
+        type: object
+        fields:
+          - { name: en, label: English, type: string, required: true }
+          - { name: ru, label: Russian, type: string, required: true }
       - name: items
         label: Items
         type: object
         list: true
         fields:
           - { name: image, label: Image, type: image, required: true }
-          - { name: title, label: Title, type: string, required: true }
-          - { name: body, label: Body, type: rich-text, required: true }
+          - name: title
+            label: Title
+            type: object
+            fields:
+              - { name: en, label: English, type: string, required: true }
+              - { name: ru, label: Russian, type: string, required: true }
+          - name: body
+            label: Body
+            type: object
+            fields:
+              - { name: en, label: English, type: rich-text, required: true }
+              - { name: ru, label: Russian, type: rich-text, required: true }
           - { name: link, label: Link, type: string, required: true }
