@@ -1,4 +1,15 @@
-media: images
+media:
+  - name: images
+    label: Images
+    input: images
+    output: /images
+
+  - name: vector_assets
+    label: Vector Assets
+    input: images/icons
+    output: /images/icons
+    extensions: [svg]
+    categories: [image]
 content:
   - name: contacts
     label: Contacts
