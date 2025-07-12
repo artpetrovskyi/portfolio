@@ -8,7 +8,7 @@ media:
     label: Vectors
     input: images/icons
     output: /images/icons
-    path: ./images/icons
+
     extensions: [svg]
     categories: [image]
     
@@ -39,6 +39,7 @@ content:
               media: vectors
               categories: [image]
               extensions: [svg]
+              path: images/icons
 
   - name: projects
     label: Projects
