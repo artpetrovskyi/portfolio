@@ -5,14 +5,14 @@
   },
   "items": [
     {
-      "image": "project1.png",
+      "image": "/images/projects/caseprint.png",
       "title": {
         "en": "Portfolio Website",
         "ru": "Сайт-портфолио"
       },
       "body": {
-        "en": "<p>A personal portfolio built with React and Tailwind CSS.</p>",
-        "ru": "<p>Личное портфолио, созданное с помощью React и Tailwind CSS.</p>"
+        "en": "A personal portfolio built with React and Tailwind CSS.",
+        "ru": "Личное портфолио, созданное с помощью React и Tailwind CSS."
       },
       "link": "https://example.com/portfolio"
     }
