@@ -1,0 +1,28 @@
+{
+  "title": {
+    "en": "My contacts",
+    "ru": "Мои контакты"
+  },
+  "items": [
+    {
+      "title": "Telegram",
+      "link": "https://t.me/artpetrovskyi",
+      "icon": "telegram.svg"
+    },
+    {
+      "title": "Email",
+      "link": "artpetrovskyi@gmail.com",
+      "icon": "email.svg"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/artpetrovskyi/",
+      "icon": "linkedin.svg"
+    },
+    {
+      "title": "GitHub",
+      "link": "https://github.com/artpetrovskyi",
+      "icon": "github.svg"
+    }
+  ]
+}

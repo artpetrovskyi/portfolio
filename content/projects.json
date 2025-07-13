@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "My Projects",
+    "ru": "Мои проекты"
+  },
+  "items": [
+    {
+      "image": "project1.png",
+      "title": {
+        "en": "Portfolio Website",
+        "ru": "Сайт-портфолио"
+      },
+      "body": {
+        "en": "<p>A personal portfolio built with React and Tailwind CSS.</p>",
+        "ru": "<p>Личное портфолио, созданное с помощью React и Tailwind CSS.</p>"
+      },
+      "link": "https://example.com/portfolio"
+    }
+  ]
+}
