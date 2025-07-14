@@ -5,23 +5,27 @@
   },
   "items": [
     {
-      "title": "Telegram",
-      "link": "https://t.me/artpetrovskyi",
+      "title": "artpetrovskyi",
+      "name": "Telegram",
+      "link": "https://t.me/artpetrovskyi/",
       "icon": "/images/icons/telegram.svg"
     },
     {
-      "title": "Email",
+      "title": "artpetrovskyi@gmail.com",
+      "name": "Email",
       "link": "artpetrovskyi@gmail.com",
       "icon": "email.svg"
     },
     {
-      "title": "LinkedIn",
+      "title": "artpetrovskyi",
+      "name": "LinkedIn",
       "link": "https://www.linkedin.com/in/artpetrovskyi/",
       "icon": "linkedin.svg"
     },
     {
-      "title": "GitHub",
-      "link": "https://github.com/artpetrovskyi",
+      "title": "artpetrovskyi",
+      "name": "GitHub",
+      "link": "https://github.com/artpetrovskyi/",
       "icon": "github.svg"
     }
   ]
