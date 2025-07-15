@@ -1,0 +1,42 @@
+{
+  "title": {
+    "en": "My Skills",
+    "ru": "Мои навыки"
+  },
+  "development": {
+    "title": {
+      "en": "Development",
+      "ru": "Разработка"
+    },
+    "items": [
+      {
+        "title": "HTML",
+        "icon": "/media/vectors/html.svg"
+      },
+      {
+        "title": "CSS",
+        "icon": "/media/vectors/css.svg"
+      },
+      {
+        "title": "JavaScript",
+        "icon": "/media/vectors/javascript.svg"
+      }
+    ]
+  },
+  "design": {
+    "title": {
+      "en": "Design",
+      "ru": "Дизайн"
+    },
+    "items": [
+      {
+        "title": "Figma",
+        "icon": "/media/vectors/figma.svg"
+      },
+      {
+        "title": "Adobe XD",
+        "icon": "/media/vectors/adobe-xd.svg"
+      }
+    ]
+  }
+}
