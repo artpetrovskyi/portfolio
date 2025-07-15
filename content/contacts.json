@@ -14,19 +14,19 @@
       "title": "artpetrovskyi@gmail.com",
       "name": "Email",
       "link": "artpetrovskyi@gmail.com",
-      "icon": "email.svg"
+      "icon": "/images/icons/email.svg"
     },
     {
       "title": "artpetrovskyi",
       "name": "LinkedIn",
       "link": "https://www.linkedin.com/in/artpetrovskyi/",
-      "icon": "linkedin.svg"
+      "icon": "/images/icons/linkedin.svg"
     },
     {
       "title": "artpetrovskyi",
       "name": "GitHub",
       "link": "https://github.com/artpetrovskyi/",
-      "icon": "github.svg"
+      "icon": "/images/icons/github.svg"
     }
   ]
 }
