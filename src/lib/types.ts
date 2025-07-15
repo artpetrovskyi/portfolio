@@ -1,11 +1,42 @@
-export type Work = {
+export type Contact = {
   title: string;
-  description: string;
-  image: string;
-  body: string;
+  link: string;
+  name: string;
+  icon: string; // path
 };
 
-export type WorksList = {
+export type ContactsData = {
+  title: {
+    en: string;
+    ru: string;
+  };
+  items: Contact[];
+};
+
+export type Skill = {
   title: string;
-  entries: Work[];
-}
+  icon: string; // path
+};
+
+export type SkillsData = {
+  title: {
+    en: string;
+    ru: string;
+  };
+
+  development: {
+    title: {
+      en: string;
+      ru: string;
+    };
+    items: Skill[];
+  };
+
+  design: {
+    title: {
+      en: string;
+      ru: string;
+    };
+    items: Skill[];
+  };
+};

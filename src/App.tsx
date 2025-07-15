@@ -1,14 +1,20 @@
 import { ThemeProvider } from "@/components/theme/theme-provider";
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "./components/theme/mode-toggle";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Footer from "./components/footer";
+import Skills from "./components/Skills";
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="flex min-h-svh flex-col items-center justify-center">
-        <Button>Click me!!!</Button>
-        <ModeToggle />
+    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+      <div className="flex min-h-svh flex-col">
+        <Header />
+        <Hero />
       </div>
+      <main>
+        <Skills />
+      </main>
+      <Footer />
     </ThemeProvider>
   );
 }
