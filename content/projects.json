@@ -1,20 +1,56 @@
 {
   "title": {
-    "en": "My Projects",
-    "ru": "Мои проекты"
+    "en": "Projects",
+    "ru": "Проекты"
   },
   "items": [
     {
       "image": "/images/projects/caseprint.png",
       "title": {
-        "en": "Portfolio Website",
-        "ru": "Сайт-портфолио"
+        "en": "Web application for the company \"CasePrint\"",
+        "ru": "Web application for the company \"CasePrint\""
       },
       "body": {
-        "en": "A personal portfolio built with React and Tailwind CSS.",
-        "ru": "Личное портфолио, созданное с помощью React и Tailwind CSS."
+        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
+        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
       },
-      "link": "https://example.com/portfolio"
+      "link": "https://case-print.vercel.app/"
+    },
+    {
+      "image": "/images/projects/ecomarket.png",
+      "title": {
+        "en": "Web application for the grocery store \"Ecomarket\"",
+        "ru": "Web application for the grocery store \"Ecomarket\""
+      },
+      "body": {
+        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
+        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
+      },
+      "link": "https://ecomarket.vercel.app/"
+    },
+    {
+      "image": "/images/projects/mostehviveska.png",
+      "title": {
+        "en": "Development a multi-page website for the advertising and production company \"Mostehviveska\"",
+        "ru": "Development a multi-page website for the advertising and production company \"Mostehviveska\""
+      },
+      "body": {
+        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
+        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
+      },
+      "link": "https://mostehviveska.ru/"
+    },
+    {
+      "image": "/images/projects/coral-shop.png",
+      "title": {
+        "en": "Layout main page of the clothing and accessories store \"CORAL\"",
+        "ru": "Layout main page of the clothing and accessories store \"CORAL\""
+      },
+      "body": {
+        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
+        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
+      },
+      "link": "https://underwhot.github.io/CoralShop/"
     }
   ]
 }
