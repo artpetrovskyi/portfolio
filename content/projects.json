@@ -23,8 +23,8 @@
         "ru": "EcoMarket – Эко‑маркет для онлайн‑покупок"
       },
       "body": {
-        "en": "A modern online store built with **Next.js**, focused on eco-friendly products. Includes intuitive navigation, product listings, and a responsive design for seamless shopping on any device.\n\n**Features:**\n\n*   Clean, minimal UI for product browsing\n    \n*   Responsive design for desktop and mobile\n    \n*   Optimized performance and SEO with Next.js",
-        "ru": "Современный интернет-магазин, созданный на **Next.js**, с акцентом на экологичные товары. Удобная навигация, карточки товаров и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Оптимизация скорости и SEO на Next.js"
+        "en": "A modern React web app focused on eco-friendly products. Features intuitive navigation, clean product listings, and a responsive design for seamless shopping on all devices.\n\n**Features:**\n\n*   Clean, minimal UI for product browsing\n    \n*   Responsive design for desktop and mobile\n    \n*   Fast, client-side rendering with React",
+        "ru": "Современное React-приложение с акцентом на экологичные товары. Удобная навигация, карточки товаров и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Быстрая клиентская отрисовка на React"
       },
       "link": "https://ecomarket.vercel.app/"
     },
@@ -44,7 +44,7 @@
       "image": "/images/projects/coral-shop.png",
       "title": {
         "en": "Coral Shop – Modern Online Store UI",
-        "ru": "Coral Shop — Современный интерфейс интернет‑магазина"
+        "ru": "Layout main page of the clothing and accessories store \"CORAL\""
       },
       "body": {
         "en": "A clean and stylish e-commerce frontend for a fashion shop. Features product grid, intuitive navigation, and responsive design. Built with **HTML, CSS, and JavaScript** for fast and lightweight performance.\n\n**Features:**\n\n*   Product grid with hover effects\n    \n*   Mobile-friendly responsive layout\n    \n*   Simple, elegant design for e-commerce",
