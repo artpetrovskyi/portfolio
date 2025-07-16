@@ -1,8 +1,9 @@
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Footer from "./components/footer";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
       </div>
       <main>
+        <Projects />
         <Skills />
       </main>
       <Footer />

@@ -25,9 +25,13 @@ export function useFetchContent<T>(path: string) {
           setData(res.data);
           setStatus("success");
         }
-      } catch (err: any) {
+      } catch (err: unknown) {
         if (!cancelled) {
-          setError(err.message || "Error fetching data");
+          let message = "Error fetching data";
+          if (axios.isAxiosError(err)) {
+            message = err.message;
+          }
+          setError(message);
           setStatus("error");
         }
       }

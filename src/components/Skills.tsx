@@ -2,6 +2,7 @@ import type { Skill, SkillsData } from "@/lib/types";
 import SectionTitle from "./SectionTitle";
 import SkillCard from "./SkillCard";
 import { useFetchContent } from "@/hooks/useFetchContent";
+import Section from "./Section";
 
 export default function Skills() {
   const {
@@ -11,10 +12,10 @@ export default function Skills() {
   } = useFetchContent<SkillsData>("content/skills.json");
 
   return (
-    <section className="container py-12">
+    <Section>
       <SectionTitle>Skills</SectionTitle>
 
-      <div className="flex gap-20">
+      <div className="flex gap-10 flex-col md:flex-row lg:gap-20 ">
         <div className="flex-1">
           <h3 className="mb-5">For development:</h3>
 
@@ -35,7 +36,7 @@ export default function Skills() {
           )}
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

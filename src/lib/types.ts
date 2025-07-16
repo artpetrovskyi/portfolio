@@ -40,3 +40,24 @@ export type SkillsData = {
     items: Skill[];
   };
 };
+
+export type Project = {
+  title: {
+    en: string;
+    ru: string;
+  };
+  image: string; // path
+  link: string;
+  body: {
+    en: string;
+    ru: string;
+  };
+};
+
+export type ProjectsData = {
+  title: {
+    en: string;
+    ru: string;
+  };
+  items: Project[];
+};

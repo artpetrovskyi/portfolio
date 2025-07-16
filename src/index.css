@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -143,11 +144,19 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: "Manrope", sans-serif;
     letter-spacing: 0.02em;
-    /* word-spacing: 0.09rem; */
+    overflow-x: hidden; /* Fallback */
+  }
+
+  /* Prefer overflow: clip when supported */
+  @supports (overflow: clip) {
+    body {
+      overflow-x: clip;
+    }
   }
 }
 
