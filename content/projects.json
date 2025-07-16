@@ -7,48 +7,48 @@
     {
       "image": "/images/projects/caseprint.png",
       "title": {
-        "en": "Web application for the company \"CasePrint\"",
-        "ru": "Web application for the company \"CasePrint\""
+        "en": "CasePrint – Custom Photo Phone‑Case Builder",
+        "ru": "CasePrint – Конструктор чехлов с фото"
       },
       "body": {
-        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
-        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
+        "en": "A modern web app for customizing phone cases. Users can upload photos and instantly preview their design. Built with **Next.js**, fully responsive, and deployed on Vercel.\n\n**Features:**\n\n*   Upload your own image\n    \n*   Instant live preview on phone case\n    \n*   Responsive design for all devices",
+        "ru": "Современное веб-приложение для создания уникальных чехлов. Загружайте фото и сразу смотрите, как будет выглядеть ваш дизайн. Сделано на **Next.js**, адаптивно и размещено на Vercel.\n\n**Функции:**\n\n*   Загрузка собственного изображения\n    \n*   Мгновенное онлайн-превью на чехле\n    \n*   Адаптивный дизайн для любых устройств"
       },
       "link": "https://case-print.vercel.app/"
     },
     {
       "image": "/images/projects/ecomarket.png",
       "title": {
-        "en": "Web application for the grocery store \"Ecomarket\"",
-        "ru": "Web application for the grocery store \"Ecomarket\""
+        "en": "EcoMarket – Sustainable E‑Commerce Platform",
+        "ru": "EcoMarket – Эко‑маркет для онлайн‑покупок"
       },
       "body": {
-        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
-        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
+        "en": "A modern online store built with **Next.js**, focused on eco-friendly products. Includes intuitive navigation, product listings, and a responsive design for seamless shopping on any device.\n\n**Features:**\n\n*   Clean, minimal UI for product browsing\n    \n*   Responsive design for desktop and mobile\n    \n*   Optimized performance and SEO with Next.js",
+        "ru": "Современный интернет-магазин, созданный на **Next.js**, с акцентом на экологичные товары. Удобная навигация, карточки товаров и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Оптимизация скорости и SEO на Next.js"
       },
       "link": "https://ecomarket.vercel.app/"
     },
     {
       "image": "/images/projects/mostehviveska.png",
       "title": {
-        "en": "Development a multi-page website for the advertising and production company \"Mostehviveska\"",
-        "ru": "Development a multi-page website for the advertising and production company \"Mostehviveska\""
+        "en": "Mostehviveska – Corporate Website for Engineering Company",
+        "ru": "Мостехвывеска — Корпоративный сайт для инженерной компании"
       },
       "body": {
-        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
-        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
+        "en": "A professional multi‑page website for a construction and signage company. Includes service descriptions, portfolio gallery, and contact integration. Designed for clarity, responsiveness, and fast performance.\n\n**Features:**\n\n*   Multi-page corporate website structure\n    \n*   Service and portfolio presentation\n    \n*   Responsive design for all devices",
+        "ru": "Профессиональный многостраничный сайт для компании по производству вывесок и строительных решений. Включает описание услуг, галерею проектов и форму связи. Адаптивный дизайн и высокая скорость загрузки.\n\n**Функции:**\n\n*   Многостраничная структура сайта\n    \n*   Разделы с услугами и портфолио\n    \n*   Адаптивный дизайн для всех устройств"
       },
       "link": "https://mostehviveska.ru/"
     },
     {
       "image": "/images/projects/coral-shop.png",
       "title": {
-        "en": "Layout main page of the clothing and accessories store \"CORAL\"",
-        "ru": "Layout main page of the clothing and accessories store \"CORAL\""
+        "en": "Coral Shop – Modern Online Store UI",
+        "ru": "Coral Shop — Современный интерфейс интернет‑магазина"
       },
       "body": {
-        "en": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat.",
-        "ru": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eaque nobis rem libero necessitatibus esse voluptatum earum reiciendis cumque expedita repellendus doloribus nulla, itaque eveniet quae obcaecati sint debitis placeat."
+        "en": "A clean and stylish e-commerce frontend for a fashion shop. Features product grid, intuitive navigation, and responsive design. Built with **HTML, CSS, and JavaScript** for fast and lightweight performance.\n\n**Features:**\n\n*   Product grid with hover effects\n    \n*   Mobile-friendly responsive layout\n    \n*   Simple, elegant design for e-commerce",
+        "ru": "Чистый и стильный фронтенд для магазина одежды. Включает сетку товаров, удобную навигацию и адаптивный дизайн. Сделано на **HTML, CSS и JavaScript** для высокой скорости и лёгкости.\n\n**Функции:**\n\n*   Сетка товаров с эффектами наведения\n    \n*   Адаптивная верстка для мобильных устройств\n    \n*   Лёгкий и современный дизайн для e-commerce"
       },
       "link": "https://artpetrovskyi.github.io/coral-shop/"
     }
