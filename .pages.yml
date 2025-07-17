@@ -18,75 +18,57 @@ content:
     path: content/general.json
     fields:
       # About Section
-      - name: about
-        label: About
+      - name: title
+        label: Title
         type: object
         fields:
-          - name: title
-            label: Title
-            type: object
-            fields:
-              - { name: en, label: English, type: string, required: true }
-              - { name: ru, label: Russian, type: string, required: true }
-          - { name: photo, label: Photo, type: image, required: true }
-          - name: body
-            label: Body
-            type: object
-            fields:
-              - { name: en, label: English, type: rich-text, required: true }
-              - { name: ru, label: Russian, type: rich-text, required: true }
+          - { name: en, label: English, type: string, required: true }
+          - { name: ru, label: Russian, type: string, required: true }
+      - { name: photo, label: Photo, type: image, required: true }
+      - name: body
+        label: Body
+        type: object
+        fields:
+          - { name: en, label: English, type: rich-text, required: true }
+          - { name: ru, label: Russian, type: rich-text, required: true }
 
       # Contacts Section
-      - name: contacts
-        label: Contacts
+      - name: title
+        label: Title
         type: object
         fields:
-          - name: title
-            label: Title
-            type: object
-            fields:
-              - { name: en, label: English, type: string, required: true }
-              - { name: ru, label: Russian, type: string, required: true }
-          - name: items
-            label: Items
-            type: object
-            list: true
-            fields:
-              - { name: title, label: Title, type: string, required: true }
-              - { name: name, label: Name, type: string, required: true }
-              - { name: link, label: Link, type: string, required: true }
-              - name: icon
-                label: Icon
-                type: image
-                required: true
-                options:
-                  media: vectors
-                  categories: [image]
-                  extensions: [svg]
+          - { name: en, label: English, type: string, required: true }
+          - { name: ru, label: Russian, type: string, required: true }
+      - name: items
+        label: Items
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: name, label: Name, type: string, required: true }
+          - { name: link, label: Link, type: string, required: true }
+          - name: icon
+            label: Icon
+            type: image
+            required: true
+            options:
+              media: vectors
+              categories: [image]
+              extensions: [svg]
 
       # Skills Section
-      - name: skills
-        label: Skills
+      - name: title
+        label: Title
         type: object
         fields:
-          - name: title
-            label: Title
-            type: object
-            fields:
-              - { name: en, label: English, type: string, required: true }
-              - { name: ru, label: Russian, type: string, required: true }
+          - { name: en, label: English, type: string, required: true }
+          - { name: ru, label: Russian, type: string, required: true }
 
           # Development
           - name: development
             label: Development
             type: object
             fields:
-              - name: title
-                label: Title
-                type: object
-                fields:
-                  - { name: en, label: English, type: string, required: true }
-                  - { name: ru, label: Russian, type: string, required: true }
               - name: items
                 label: Items
                 type: object
@@ -100,12 +82,6 @@ content:
             label: Design
             type: object
             fields:
-              - name: title
-                label: Title
-                type: object
-                fields:
-                  - { name: en, label: English, type: string, required: true }
-                  - { name: ru, label: Russian, type: string, required: true }
               - name: items
                 label: Items
                 type: object
@@ -120,13 +96,6 @@ content:
     type: file
     path: content/projects.json
     fields:
-      # Global Title
-      - name: title
-        label: Title
-        type: object
-        fields:
-          - { name: en, label: English, type: string, required: true }
-          - { name: ru, label: Russian, type: string, required: true }
       - name: items
         label: Items
         type: object
