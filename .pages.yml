@@ -41,6 +41,30 @@ content:
               categories: [image]
               extensions: [svg]
 
+  - name: about
+    label: About
+    type: file
+    path: content/about.json
+    fields:
+      # Global Title
+      - name: title
+        label: Title
+        type: object
+        fields:
+          - { name: en, label: English, type: string, required: true }
+          - { name: ru, label: Russian, type: string, required: true }
+      - name: photo
+        label: Photo
+        type: image
+        required: true
+      - name: body
+        label: Body
+        type: object
+        fields:
+          - { name: en, label: English, type: rich-text, required: true }
+          - { name: ru, label: Russian, type: rich-text, required: true }
+
+
   - name: projects
     label: Projects
     type: file
