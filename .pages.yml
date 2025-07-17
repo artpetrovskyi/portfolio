@@ -61,12 +61,6 @@ content:
             label: Development
             type: object
             fields:
-              - name: title
-                label: Title
-                type: object
-                fields:
-                  - { name: en, label: English, type: string, required: true }
-                  - { name: ru, label: Russian, type: string, required: true }
               - name: items
                 label: Items
                 type: object
