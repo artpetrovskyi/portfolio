@@ -1,9 +1,5 @@
 {
   "about": {
-    "title": {
-      "en": "About Me",
-      "ru": "Обо мне"
-    },
     "photo": "/images/profile.jpg",
     "body": {
       "en": "<p>Hello! I am a frontend developer with a passion for creating modern web applications using React, Next.js, and Tailwind CSS.</p>",
@@ -11,10 +7,6 @@
     }
   },
   "contacts": {
-    "title": {
-      "en": "Contacts",
-      "ru": "Контакты"
-    },
     "items": [
       {
         "title": "Email",
@@ -37,15 +29,7 @@
     ]
   },
   "skills": {
-    "title": {
-      "en": "Skills",
-      "ru": "Навыки"
-    },
     "development": {
-      "title": {
-        "en": "Development",
-        "ru": "Разработка"
-      },
       "items": [
         {
           "title": "HTML",
@@ -66,10 +50,6 @@
       ]
     },
     "design": {
-      "title": {
-        "en": "Design",
-        "ru": "Дизайн"
-      },
       "items": [
         {
           "title": "Figma",
