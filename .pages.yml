@@ -18,12 +18,6 @@ content:
     path: content/general.json
     fields:
       # About Section
-      - name: title
-        label: Title
-        type: object
-        fields:
-          - { name: en, label: English, type: string, required: true }
-          - { name: ru, label: Russian, type: string, required: true }
       - { name: photo, label: Photo, type: image, required: true }
       - name: body
         label: Body
@@ -33,12 +27,6 @@ content:
           - { name: ru, label: Russian, type: rich-text, required: true }
 
       # Contacts Section
-      - name: title
-        label: Title
-        type: object
-        fields:
-          - { name: en, label: English, type: string, required: true }
-          - { name: ru, label: Russian, type: string, required: true }
       - name: items
         label: Items
         type: object
@@ -57,13 +45,6 @@ content:
               extensions: [svg]
 
       # Skills Section
-      - name: title
-        label: Title
-        type: object
-        fields:
-          - { name: en, label: English, type: string, required: true }
-          - { name: ru, label: Russian, type: string, required: true }
-
           # Development
           - name: development
             label: Development
