@@ -9,22 +9,28 @@
   "contacts": {
     "items": [
       {
-        "title": "Email",
-        "name": "artem@example.com",
-        "link": "mailto:artem@example.com",
+        "title": "artpetrovskyi",
+        "name": "Telegram",
+        "link": "https://t.me/artpetrovskyi/",
+        "icon": "/images/icons/telegram.svg"
+      },
+      {
+        "title": "artpetrovskyi@gmail.com",
+        "name": "Email",
+        "link": "artpetrovskyi@gmail.com",
         "icon": "/images/icons/email.svg"
       },
       {
-        "title": "GitHub",
-        "name": "github.com/artemdev",
-        "link": "https://github.com/artemdev",
-        "icon": "/images/icons/github.svg"
+        "title": "artpetrovskyi",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/artpetrovskyi/",
+        "icon": "/images/icons/linkedin.svg"
       },
       {
-        "title": "Telegram",
-        "name": "@artemdev",
-        "link": "https://t.me/artemdev",
-        "icon": "/images/icons/telegram.svg"
+        "title": "artpetrovskyi",
+        "name": "GitHub",
+        "link": "https://github.com/artpetrovskyi/",
+        "icon": "/images/icons/github.svg"
       }
     ]
   },
@@ -40,12 +46,40 @@
           "icon": "/images/icons/css.svg"
         },
         {
+          "title": "SASS & SCSS",
+          "icon": "/images/icons/sass.svg"
+        },
+        {
           "title": "JavaScript",
           "icon": "/images/icons/javascript.svg"
         },
         {
+          "title": "TypeScript",
+          "icon": "/images/icons/typescript.svg"
+        },
+        {
           "title": "React",
           "icon": "/images/icons/react.svg"
+        },
+        {
+          "title": "Next.js",
+          "icon": "/images/icons/nextjs.svg"
+        },
+        {
+          "title": "Redux Toolkit",
+          "icon": "/images/icons/redux.svg"
+        },
+        {
+          "title": "WordPress",
+          "icon": "/images/icons/wordpress.svg"
+        },
+        {
+          "title": "Tailwind",
+          "icon": "/images/icons/tailwind.svg"
+        },
+        {
+          "title": "Git & Github",
+          "icon": "/images/icons/git.svg"
         }
       ]
     },
@@ -58,6 +92,14 @@
         {
           "title": "Photoshop",
           "icon": "/images/icons/photoshop.svg"
+        },
+        {
+          "title": "Illustrator",
+          "icon": "/images/icons/illustrator.svg"
+        },
+        {
+          "title": "CorelDraw",
+          "icon": "/images/icons/coreldraw.svg"
         }
       ]
     }
