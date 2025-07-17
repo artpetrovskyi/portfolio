@@ -12,59 +12,109 @@ media:
     categories: [image]
     
 content:
-  - name: contacts
-    label: Contacts
+  - name: general
+    label: General
     type: file
-    path: content/contacts.json
+    path: content/general.json
     fields:
-      # Global Title
-      - name: title
-        label: Title
+      # About Section
+      - name: about
+        label: About
         type: object
         fields:
-          - { name: en, label: English, type: string, required: true }
-          - { name: ru, label: Russian, type: string, required: true }
-      - name: items
-        label: Items
-        type: object
-        list: true
-        fields:
-          - { name: title, label: Title, type: string, required: true }
-          - { name: name, label: Name, type: string, required: true }
-          - { name: link, label: Link, type: string, required: true }
-          - name: icon
-            label: Icon
-            type: image
-            required: true
-            options:
-              media: vectors
-              categories: [image]
-              extensions: [svg]
+          - name: title
+            label: Title
+            type: object
+            fields:
+              - { name: en, label: English, type: string, required: true }
+              - { name: ru, label: Russian, type: string, required: true }
+          - { name: photo, label: Photo, type: image, required: true }
+          - name: body
+            label: Body
+            type: object
+            fields:
+              - { name: en, label: English, type: rich-text, required: true }
+              - { name: ru, label: Russian, type: rich-text, required: true }
 
-  - name: about
-    label: About
-    type: file
-    path: content/about.json
-    fields:
-      # Global Title
-      - name: title
-        label: Title
+      # Contacts Section
+      - name: contacts
+        label: Contacts
         type: object
         fields:
-          - { name: en, label: English, type: string, required: true }
-          - { name: ru, label: Russian, type: string, required: true }
-      - name: photo
-        label: Photo
-        type: image
-        required: true
-      - name: body
-        label: Body
+          - name: title
+            label: Title
+            type: object
+            fields:
+              - { name: en, label: English, type: string, required: true }
+              - { name: ru, label: Russian, type: string, required: true }
+          - name: items
+            label: Items
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string, required: true }
+              - { name: name, label: Name, type: string, required: true }
+              - { name: link, label: Link, type: string, required: true }
+              - name: icon
+                label: Icon
+                type: image
+                required: true
+                options:
+                  media: vectors
+                  categories: [image]
+                  extensions: [svg]
+
+      # Skills Section
+      - name: skills
+        label: Skills
         type: object
         fields:
-          - { name: en, label: English, type: rich-text, required: true }
-          - { name: ru, label: Russian, type: rich-text, required: true }
+          - name: title
+            label: Title
+            type: object
+            fields:
+              - { name: en, label: English, type: string, required: true }
+              - { name: ru, label: Russian, type: string, required: true }
 
+          # Development
+          - name: development
+            label: Development
+            type: object
+            fields:
+              - name: title
+                label: Title
+                type: object
+                fields:
+                  - { name: en, label: English, type: string, required: true }
+                  - { name: ru, label: Russian, type: string, required: true }
+              - name: items
+                label: Items
+                type: object
+                list: true
+                fields:
+                  - { name: title, label: Title, type: string, required: true }
+                  - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
 
+          # Design
+          - name: design
+            label: Design
+            type: object
+            fields:
+              - name: title
+                label: Title
+                type: object
+                fields:
+                  - { name: en, label: English, type: string, required: true }
+                  - { name: ru, label: Russian, type: string, required: true }
+              - name: items
+                label: Items
+                type: object
+                list: true
+                fields:
+                  - { name: title, label: Title, type: string, required: true }
+                  - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
+
+  # Projects Section (unchanged)
   - name: projects
     label: Projects
     type: file
@@ -96,55 +146,3 @@ content:
               - { name: en, label: English, type: rich-text, required: true }
               - { name: ru, label: Russian, type: rich-text, required: true }
           - { name: link, label: Link, type: string, required: true }
-
-
-  - name: skills
-    label: Skills
-    type: file
-    path: content/skills.json
-    fields:
-      # Global Title
-      - name: title
-        label: Title
-        type: object
-        fields:
-          - { name: en, label: English, type: string, required: true }
-          - { name: ru, label: Russian, type: string, required: true }
-    
-      # Development Section
-      - name: development
-        label: Development
-        type: object
-        fields:
-          - name: title
-            label: Title
-            type: object
-            fields:
-              - { name: en, label: English, type: string, required: true }
-              - { name: ru, label: Russian, type: string, required: true }
-          - name: items
-            label: Items
-            type: object
-            list: true
-            fields:
-              - { name: title, label: Title, type: string, required: true }
-              - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
-    
-      # Design Section
-      - name: design
-        label: Design
-        type: object
-        fields:
-          - name: title
-            label: Title
-            type: object
-            fields:
-              - { name: en, label: English, type: string, required: true }
-              - { name: ru, label: Russian, type: string, required: true }
-          - name: items
-            label: Items
-            type: object
-            list: true
-            fields:
-              - { name: title, label: Title, type: string, required: true }
-              - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
