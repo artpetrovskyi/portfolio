@@ -1,0 +1,85 @@
+{
+  "about": {
+    "title": {
+      "en": "About Me",
+      "ru": "Обо мне"
+    },
+    "photo": "/images/profile.jpg",
+    "body": {
+      "en": "<p>Hello! I am a frontend developer with a passion for creating modern web applications using React, Next.js, and Tailwind CSS.</p>",
+      "ru": "<p>Привет! Я фронтенд-разработчик, увлеченный созданием современных веб-приложений с использованием React, Next.js и Tailwind CSS.</p>"
+    }
+  },
+  "contacts": {
+    "title": {
+      "en": "Contacts",
+      "ru": "Контакты"
+    },
+    "items": [
+      {
+        "title": "Email",
+        "name": "artem@example.com",
+        "link": "mailto:artem@example.com",
+        "icon": "/images/icons/email.svg"
+      },
+      {
+        "title": "GitHub",
+        "name": "github.com/artemdev",
+        "link": "https://github.com/artemdev",
+        "icon": "/images/icons/github.svg"
+      },
+      {
+        "title": "Telegram",
+        "name": "@artemdev",
+        "link": "https://t.me/artemdev",
+        "icon": "/images/icons/telegram.svg"
+      }
+    ]
+  },
+  "skills": {
+    "title": {
+      "en": "Skills",
+      "ru": "Навыки"
+    },
+    "development": {
+      "title": {
+        "en": "Development",
+        "ru": "Разработка"
+      },
+      "items": [
+        {
+          "title": "HTML",
+          "icon": "/images/icons/html.svg"
+        },
+        {
+          "title": "CSS",
+          "icon": "/images/icons/css.svg"
+        },
+        {
+          "title": "JavaScript",
+          "icon": "/images/icons/javascript.svg"
+        },
+        {
+          "title": "React",
+          "icon": "/images/icons/react.svg"
+        }
+      ]
+    },
+    "design": {
+      "title": {
+        "en": "Design",
+        "ru": "Дизайн"
+      },
+      "items": [
+        {
+          "title": "Figma",
+          "icon": "/images/icons/figma.svg"
+        },
+        {
+          "title": "Photoshop",
+          "icon": "/images/icons/photoshop.svg"
+        }
+      ]
+    }
+  }
+}
