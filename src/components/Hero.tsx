@@ -1,16 +1,16 @@
 import ContactCard from "./ContactCard";
-import type { ContactsData } from "@/lib/types";
 import { ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
-import { useFetchContent } from "@/hooks/useFetchContent";
+import type { FetchStatus } from "@/hooks/useFetchContent";
+import type { Contacts } from "@/lib/types";
 
-export default function Hero() {
-  const {
-    data: contactsData,
-    status,
-    error,
-  } = useFetchContent<ContactsData>("content/contacts.json");
+interface HeroProps {
+  contacts?: Contacts;
+  status: FetchStatus;
+  error: string | null;
+}
 
+export default function Hero({ contacts, status, error }: HeroProps) {
   return (
     <section className="relative container flex h-full flex-1 flex-col items-center justify-around gap-12 pb-24">
       <div className="max-w-2xl text-center">
@@ -24,7 +24,7 @@ export default function Hero() {
         {status === "loading" && <p>Loading...</p>}
         {status === "error" && <p>Error loading contacts: {error}</p>}
         {status === "success" &&
-          contactsData?.items.map((contact) => (
+          contacts?.items.map((contact) => (
             <li key={contact.link} className="flex-1">
               <ContactCard {...contact} />
             </li>

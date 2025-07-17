@@ -21,15 +21,27 @@ export default function Projects() {
 
   return (
     <Section>
-      <SectionTitle>Projects</SectionTitle>
-
       <Carousel
         opts={{
           align: "start",
-          // dragFree: true,
         }}
         className="[&_.overflow-hidden]:!overflow-visible"
       >
+        {/* Top */}
+        <div className="flex justify-between gap-4">
+          <SectionTitle>Projects</SectionTitle>
+          <div className="flex gap-4">
+            <CarouselPrevious
+              variant="secondary"
+              className="bg-gradient cursor-pointer px-6"
+            />
+            <CarouselNext
+              variant="secondary"
+              className="bg-gradient cursor-pointer px-6"
+            />
+          </div>
+        </div>
+
         <CarouselContent className="-ml-4">
           {status === "loading" && <p>Loading...</p>}
           {status === "error" && <p>Error loading projects: {error}</p>}
@@ -58,10 +70,10 @@ export default function Projects() {
                     target="_blank"
                     className="mb-4 transition-opacity duration-200 hover:opacity-80"
                   >
-                    <h3 className="">{project.title.en}</h3>
+                    <h3>{project.title.en}</h3>
                   </a>
 
-                  <div className="prose dark:prose-invert prose-sm prose-neutral prose-li:m-0 prose-li:p-0 mb-5 flex-1">
+                  <div className="prose dark:prose-invert prose-sm prose-neutral prose-li:m-0 prose-li:p-0 mb-5 max-w-none flex-1">
                     <Markdown>{project.body.en}</Markdown>
                   </div>
 
@@ -72,8 +84,6 @@ export default function Projects() {
               </CarouselItem>
             ))}
         </CarouselContent>
-        {/* <CarouselPrevious /> */}
-        {/* <CarouselNext /> */}
       </Carousel>
     </Section>
   );

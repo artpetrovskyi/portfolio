@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-type FetchStatus = "idle" | "loading" | "error" | "success";
+export type FetchStatus = "idle" | "loading" | "error" | "success";
 
 export function useFetchContent<T>(path: string) {
   const [data, setData] = useState<T | null>(null);
