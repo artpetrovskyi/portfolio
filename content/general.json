@@ -9,9 +9,15 @@
   "achievements": [
     {
       "title": "Verstaem.online",
-      "body": "I am featured on [verstaem.online](http://verstaem.online) as a front-end developer, where I share my projects, experience, and skills.",
-      "link-title": "View my profile",
-      "link": "https://verstaem.online/people/artem_petrovskyi/"
+      "link": "https://verstaem.online/people/artem_petrovskyi/",
+      "link-title": {
+        "en": "View my profile",
+        "ru": "Перейти в мой профиль"
+      },
+      "body": {
+        "en": "I am featured on [verstaem.online](http://verstaem.online) as a front-end developer, where I share my projects, experience, and skills.",
+        "ru": "I am featured on [verstaem.online](http://verstaem.online) as a front-end developer, where I share my projects, experience, and skills."
+      }
     }
   ],
   "contacts": {
