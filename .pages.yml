@@ -29,13 +29,15 @@ content:
             fields:
               - { name: en, label: English, type: rich-text, required: true }
               - { name: ru, label: Russian, type: rich-text, required: true }
-          - name: achievements
-            label: Achievements
-            type: object
-            list: true
-            fields:
-              - { name: body, label: Body, type: rich-text, required: true }
-              - { name: link, label: Link, type: string, required: true }
+              
+      # Achievements Section
+      - name: achievements
+        label: Achievements
+        type: object
+        list: true
+        fields:
+          - { name: body, label: Body, type: rich-text }
+          - { name: link, label: Link, type: string }
 
       # Contacts Section
       - name: contacts
