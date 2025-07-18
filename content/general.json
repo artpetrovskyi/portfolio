@@ -6,6 +6,14 @@
       "ru": "Hi there, I'm Artem, a passionate front-end developer.\n\nI've honed my skills in crafting pixel-perfect interfaces and bringing them to life through clean, performant code. I'm proficient in HTML, CSS, SASS & SCSS, CSS frameworks like Tailwind, JavaScript, TypeScript, React, Redux Toolkit and I love building interactive features that enhance user experience.\n\nCheck out my works to see some of my recent projects. I'm always eager to learn and collaborate, so let's connect on Telegram or drop me a line at e-mail. Looking forward to hearing from you!"
     }
   },
+  "achievements": [
+    {
+      "title": "Verstaem.online",
+      "body": "I am featured on [verstaem.online](http://verstaem.online) as a front-end developer, where I share my projects, experience, and skills.",
+      "link-title": "View my profile",
+      "link": "https://verstaem.online/people/artem_petrovskyi/"
+    }
+  ],
   "contacts": {
     "items": [
       {
