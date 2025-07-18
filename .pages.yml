@@ -38,7 +38,7 @@ content:
         fields:
           - { name: title, label: Title, type: string }
           - { name: link, label: Link, type: string }
-          - name: link-title
+          - name: linkTitle
             label: Link title
             type: object
             fields:
