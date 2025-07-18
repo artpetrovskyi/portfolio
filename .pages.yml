@@ -37,9 +37,20 @@ content:
         list: true
         fields:
           - { name: title, label: Title, type: string }
-          - { name: body, label: Body, type: rich-text }
-          - { name: link-title, label: Link title, type: string }
           - { name: link, label: Link, type: string }
+          - name: link-title
+            label: Link title
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ru, label: Russian, type: string }
+          - name: body
+            label: Body
+            type: object
+            fields:
+              - { name: en, label: English, type: rich-text }
+              - { name: ru, label: Russian, type: rich-text }
+
 
       # Contacts Section
       - name: contacts
