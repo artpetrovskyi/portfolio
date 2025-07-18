@@ -26,6 +26,7 @@ function App() {
         <About
           about={generalData?.about}
           contacts={generalData?.contacts}
+          achievements={generalData?.achievements}
           status={status}
           error={error}
         />

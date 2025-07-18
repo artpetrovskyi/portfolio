@@ -1,6 +1,6 @@
-import type { Contact } from "@/lib/types";
+import type { ContactItem } from "@/lib/types";
 
-export default function ContactCard({ icon, title, link, name }: Contact) {
+export default function ContactCard({ icon, title, link, name }: ContactItem) {
   return (
     <a
       href={link}

@@ -10,10 +10,18 @@ export function ModeToggle() {
   };
 
   return (
-    <Button variant="outline" size="icon" onClick={toggleTheme}>
-      <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-      <Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-      <span className="sr-only">Toggle theme</span>
+    <Button
+      variant="secondary"
+      size="icon"
+      className="relative overflow-hidden px-6"
+      onClick={toggleTheme}
+    >
+      <Sun
+        className={`absolute size-5 transition-transform duration-500 ${theme === "dark" ? "translate-y-[150%]" : ""}`}
+      />
+      <Moon
+        className={`absolute size-5 transition-transform duration-500 ${theme === "light" ? "translate-y-[-150%]" : ""}`}
+      />
     </Button>
   );
 }

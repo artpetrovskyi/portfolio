@@ -149,14 +149,29 @@
     @apply bg-background text-foreground;
     font-family: "Manrope", sans-serif;
     letter-spacing: 0.02em;
-    overflow-x: hidden; /* Fallback */
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply flex min-h-full flex-col overflow-hidden supports-[overflow:clip]:overflow-clip;
+  }
+  .wrapper > main {
+    @apply flex-1;
+  }
+  .wrapper > * {
+    @apply min-w-0;
   }
 
-  /* Prefer overflow: clip when supported */
-  @supports (overflow: clip) {
-    body {
-      overflow-x: clip;
-    }
+  .ibg {
+    @apply relative;
+  }
+  .ibg img {
+    @apply absolute inset-0 h-full w-full object-cover;
+  }
+
+  .card {
+    @apply bg-gradient rounded-xl px-6 pt-8 pb-5;
   }
 }
 
@@ -164,16 +179,8 @@
   margin-inline: auto;
   padding-inline: 1rem;
   max-width: 80rem;
-
-  /* @media (width >= theme(--breakpoint-sm)) {
-    padding-inline: 2rem;
-  } */
 }
 
 @utility bg-gradient {
   background: var(--gradient);
-}
-
-.card {
-  @apply bg-gradient rounded-xl px-6 pt-8 pb-5;
 }

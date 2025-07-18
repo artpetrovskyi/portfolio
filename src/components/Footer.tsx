@@ -6,7 +6,7 @@ export default function Footer() {
   // }
 
   return (
-    <footer className="container pt-20 pb-10">
+    <footer className="container pt-12 pb-8">
       <p className="text-muted-foreground flex-1 text-justify text-sm">
         © {currentYear} Artem Petrovskyi. All information on this site is
         protected by copyright. Copying, reproducing, or distributing content

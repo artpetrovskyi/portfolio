@@ -2,6 +2,7 @@ export interface GeneralData {
   about: About;
   contacts: Contacts;
   skills: Skills;
+  achievements: AchievementItem[];
 }
 
 export interface About {
@@ -35,6 +36,19 @@ export interface SkillCategory {
 export interface SkillItem {
   title: string;
   icon: string;
+}
+
+export interface AchievementItem {
+  title: string;
+  link: string;
+  linkTitle: {
+    en: string;
+    ru: string;
+  };
+  body: {
+    en: string;
+    ru: string;
+  };
 }
 
 export interface ProjectsData {
