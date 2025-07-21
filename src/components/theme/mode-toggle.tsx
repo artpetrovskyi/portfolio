@@ -1,6 +1,7 @@
 import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/theme/theme-provider";
+import { cn } from "@/lib/utils";
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
@@ -9,19 +10,26 @@ export function ModeToggle() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
+  const icons = [
+    { name: "light", Icon: Sun },
+    { name: "dark", Icon: Moon },
+  ];
+
   return (
     <Button
       variant="secondary"
-      size="icon"
-      className="relative overflow-hidden px-6"
+      className="flex items-center gap-3"
       onClick={toggleTheme}
     >
-      <Sun
-        className={`absolute size-5 transition-transform duration-500 ${theme === "dark" ? "translate-y-[150%]" : ""}`}
-      />
-      <Moon
-        className={`absolute size-5 transition-transform duration-500 ${theme === "light" ? "translate-y-[-150%]" : ""}`}
-      />
+      {icons.map(({ name, Icon }) => (
+        <Icon
+          key={name}
+          className={cn(
+            "size-5 opacity-30 transition-opacity duration-200",
+            theme === name && "opacity-100",
+          )}
+        />
+      ))}
     </Button>
   );
 }

@@ -21,7 +21,7 @@ export default function Hero({ contacts, status, error }: HeroProps) {
         <h1 className="mb-4 text-3xl">
           {t("hero.title")} {t("common.name")}
         </h1>
-        <p className="m-auto max-w-96 text-lg">{t("hero.description")}</p>
+        <p className="m-auto max-w-md text-lg">{t("hero.description")}</p>
       </div>
 
       <ul className="flex flex-wrap gap-4">
