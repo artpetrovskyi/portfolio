@@ -1,5 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const { t } = useTranslation();
 
   // function scrollToTop() {
   //   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -8,10 +11,7 @@ export default function Footer() {
   return (
     <footer className="container pt-12 pb-8">
       <p className="text-muted-foreground flex-1 text-justify text-sm">
-        © {currentYear} Artem Petrovskyi. All information on this site is
-        protected by copyright. Copying, reproducing, or distributing content
-        without prior written permission is prohibited. All trademarks and logos
-        on this site are the property of their respective owners.
+        © {currentYear} {t("common.name")}. {t("footer.text")}
       </p>
     </footer>
   );

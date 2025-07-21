@@ -3,6 +3,8 @@ import SkillCard from "./SkillCard";
 import Section from "./Section";
 import type { FetchStatus } from "@/hooks/useFetchContent";
 import type { SkillCategory, Skills } from "@/lib/types";
+import { useLanguage } from "@/hooks/useLanguage";
+import { useTranslation } from "react-i18next";
 
 interface SkillsProps {
   skills?: Skills;
@@ -11,13 +13,16 @@ interface SkillsProps {
 }
 
 export default function Skills({ skills, status, error }: SkillsProps) {
+  const { t } = useTranslation();
+  const { currentLang } = useLanguage();
+
   return (
-    <Section>
-      <SectionTitle>Skills</SectionTitle>
+    <Section id="skills">
+      <SectionTitle>{t("skills.title")}</SectionTitle>
 
       <div className="flex flex-col gap-10 md:flex-row lg:gap-20">
         <div className="flex-1">
-          <h3 className="mb-5">For development:</h3>
+          <h3 className="mb-5">{t("skills.development")}</h3>
 
           {status === "loading" && <p>Loading...</p>}
           {status === "error" && <p>Error loading skills: {error}</p>}
@@ -27,7 +32,7 @@ export default function Skills({ skills, status, error }: SkillsProps) {
         </div>
 
         <div className="flex-1">
-          <h3 className="mb-5">For design:</h3>
+          <h3 className="mb-5">{t("skills.design")}</h3>
 
           {status === "loading" && <p>Loading...</p>}
           {status === "error" && <p>Error loading skills: {error}</p>}

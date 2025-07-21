@@ -1,0 +1,24 @@
+{
+  "common": {
+    "name": "Artem Petrovskyi"
+  },
+  "hero": {
+    "title": "Hello! My name is",
+    "description": "I do website design, Front-end and web application development"
+  },
+  "projects": {
+    "title": "Projects",
+    "view": "View project"
+  },
+  "about": {
+    "title": "About me"
+  },
+  "skills": {
+    "title": "Skills",
+    "development": "For development:",
+    "design": "For design:"
+  },
+  "footer": {
+    "text": "All information on this site is protected by copyright. Copying, reproducing, or distributing content without prior written permission is prohibited. All trademarks and logos on this site are the property of their respective owners."
+  }
+}

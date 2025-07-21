@@ -9,8 +9,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Section from "./Section";
-import Markdown from "react-markdown";
-import LinkBtn from "./LinkBtn";
+import ProjectCard from "./ProjectCard";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
   const {
@@ -19,8 +19,10 @@ export default function Projects() {
     error,
   } = useFetchContent<ProjectsData>("content/projects.json");
 
+  const { t } = useTranslation();
+
   return (
-    <Section>
+    <Section id="projects">
       <Carousel
         opts={{
           align: "start",
@@ -29,16 +31,10 @@ export default function Projects() {
       >
         {/* Top */}
         <div className="flex justify-between gap-4">
-          <SectionTitle>Projects</SectionTitle>
+          <SectionTitle>{t("projects.title")}</SectionTitle>
           <div className="flex gap-4">
-            <CarouselPrevious
-              variant="secondary"
-              className="bg-gradient cursor-pointer px-6"
-            />
-            <CarouselNext
-              variant="secondary"
-              className="bg-gradient cursor-pointer px-6"
-            />
+            <CarouselPrevious variant="secondary" className="bg-gradient" />
+            <CarouselNext variant="secondary" className="bg-gradient" />
           </div>
         </div>
 
@@ -52,35 +48,7 @@ export default function Projects() {
                 key={project.link}
                 className="basis-[93%] pl-4 min-[500px]:basis-[80%] sm:basis-[55%] md:basis-[45%] lg:basis-[40%] xl:basis-1/3"
               >
-                <div className="card flex h-full flex-col select-none">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    className="mb-5 transition-opacity duration-200 hover:opacity-90"
-                  >
-                    <img
-                      src={import.meta.env.VITE_API_URL + project.image}
-                      alt={project.title.en}
-                      className="h-auto w-full object-contain"
-                    />
-                  </a>
-
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    className="mb-4 transition-opacity duration-200 hover:opacity-80"
-                  >
-                    <h3>{project.title.en}</h3>
-                  </a>
-
-                  <div className="prose dark:prose-invert prose-sm prose-neutral prose-li:m-0 prose-li:p-0 mb-5 max-w-none flex-1">
-                    <Markdown>{project.body.en}</Markdown>
-                  </div>
-
-                  <div className="text-center">
-                    <LinkBtn href={project.link} text="View project" />
-                  </div>
-                </div>
+                <ProjectCard {...project} />
               </CarouselItem>
             ))}
         </CarouselContent>
