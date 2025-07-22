@@ -16,7 +16,7 @@ function App() {
   } = useFetchContent<GeneralData>("content/general.json");
 
   return (
-    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="flex min-h-svh flex-col">
         <Header />
         <Hero contacts={generalData?.contacts} status={status} error={error} />

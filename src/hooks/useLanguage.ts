@@ -10,6 +10,15 @@ export function useLanguage() {
     i18n.changeLanguage(nextLang);
   };
 
+  const setHtmlAttributes = (lang: string) => {
+    document.documentElement.lang = lang;
+  };
+
+  // Sync once when the hook mounts (for detected language)
+  if (typeof window !== "undefined") {
+    setHtmlAttributes(currentLang);
+  }
+
   return {
     currentLang,
     toggleLanguage,
