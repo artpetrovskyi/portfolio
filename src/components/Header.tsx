@@ -2,6 +2,7 @@ import { Link } from "react-scroll";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ModeToggle } from "./theme/mode-toggle";
 import { useLanguage } from "@/hooks/useLanguage";
+import { motion } from "motion/react";
 
 const NAV_LINKS = [
   {
@@ -31,7 +32,11 @@ export default function Header() {
   const { currentLang } = useLanguage();
 
   return (
-    <header>
+    <motion.header
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 2 }}
+    >
       <div className="container flex flex-wrap items-center gap-5 py-5 min-[600px]:flex-nowrap sm:py-12">
         <div className="flex-[1_0]">
           <LanguageSwitcher />
@@ -46,7 +51,7 @@ export default function Header() {
                   // offset={-100}
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer opacity-70 transition-opacity duration-200 hover:opacity-100"
+                  className="cursor-pointer text-lg opacity-70 transition-opacity duration-200 hover:opacity-100"
                 >
                   {link.title[currentLang]}
                 </Link>
@@ -59,6 +64,6 @@ export default function Header() {
           <ModeToggle />
         </div>
       </div>
-    </header>
+    </motion.header>
   );
 }

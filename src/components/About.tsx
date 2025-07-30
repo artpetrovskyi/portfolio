@@ -36,6 +36,8 @@ export default function About({
             alt="Artem Petrovskyi"
             width={420}
             height={540}
+            loading="lazy"
+            className="object-top"
           />
         </div>
 

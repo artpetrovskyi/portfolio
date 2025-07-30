@@ -3,7 +3,6 @@ import SkillCard from "./SkillCard";
 import Section from "./Section";
 import type { FetchStatus } from "@/hooks/useFetchContent";
 import type { SkillCategory, Skills } from "@/lib/types";
-import { useLanguage } from "@/hooks/useLanguage";
 import { useTranslation } from "react-i18next";
 
 interface SkillsProps {
@@ -14,7 +13,6 @@ interface SkillsProps {
 
 export default function Skills({ skills, status, error }: SkillsProps) {
   const { t } = useTranslation();
-  const { currentLang } = useLanguage();
 
   return (
     <Section id="skills">

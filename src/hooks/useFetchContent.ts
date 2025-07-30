@@ -16,8 +16,8 @@ export function useFetchContent<T>(path: string) {
       setError(null);
 
       try {
-        // Optional delay for demo/testing purpose
-        await new Promise((resolve) => setTimeout(resolve, 1000));
+        // Optional delay for demo/testing purpose TODO: remove
+        // await new Promise((resolve) => setTimeout(resolve, 100));
 
         const res = await axios.get(import.meta.env.VITE_API_URL + path);
 
@@ -44,5 +44,9 @@ export function useFetchContent<T>(path: string) {
     };
   }, [path]);
 
-  return { data, status, error };
+  return {
+    data,
+    status,
+    error,
+  };
 }

@@ -9,6 +9,7 @@ export default function SkillCard({ title, icon }: SkillItem) {
         width={30}
         height={30}
         className="h-[30px] w-[30px] opacity-50 invert dark:invert-0"
+        loading="lazy"
       />
       <span className="text-center font-light">{title}</span>
     </div>

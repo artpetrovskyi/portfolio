@@ -3,6 +3,7 @@ import LinkBtn from "./LinkBtn";
 import type { ProjectItem } from "@/lib/types";
 import { useLanguage } from "@/hooks/useLanguage";
 import { useTranslation } from "react-i18next";
+import { Skeleton } from "./ui/skeleton";
 
 export default function ProjectCard({ link, image, title, body }: ProjectItem) {
   const { t } = useTranslation();
@@ -13,12 +14,15 @@ export default function ProjectCard({ link, image, title, body }: ProjectItem) {
       <a
         href={link}
         target="_blank"
-        className="mb-5 transition-opacity duration-200 hover:opacity-90"
+        className="ibg mb-5 pb-[60%] transition-opacity duration-200 hover:opacity-90"
       >
         <img
           src={import.meta.env.VITE_API_URL + image}
           alt={title[currentLang]}
-          className="h-auto w-full object-contain"
+          className="object-contain"
+          loading="lazy"
+          width={357}
+          height={214}
         />
       </a>
 
@@ -40,3 +44,19 @@ export default function ProjectCard({ link, image, title, body }: ProjectItem) {
     </div>
   );
 }
+
+export const ProjectCardSkeleton = () => {
+  return (
+    <Skeleton className="card flex h-full flex-col">
+      <Skeleton className="ibg mb-5 pb-[60%]"></Skeleton>
+
+      <Skeleton className="mb-4 h-12"></Skeleton>
+
+      <Skeleton className="mb-5 h-[17rem]"></Skeleton>
+
+      <div>
+        <Skeleton className="mx-auto h-5 w-24"></Skeleton>
+      </div>
+    </Skeleton>
+  );
+};

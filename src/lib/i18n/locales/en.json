@@ -1,6 +1,7 @@
 {
   "common": {
-    "name": "Artem Petrovskyi"
+    "name": "Artem Petrovskyi",
+    "error": "Something went wrong. Please try again later."
   },
   "hero": {
     "title": "Hello! My name is",
