@@ -91,7 +91,8 @@ content:
                 list: true
                 fields:
                   - { name: title, label: Title, type: string, required: true }
-                  - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
+                  - { name: icon, label: Icon SVG, type: string, required: true }
+                  # - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
 
           - name: design
             label: Design
@@ -103,7 +104,8 @@ content:
                 list: true
                 fields:
                   - { name: title, label: Title, type: string, required: true }
-                  - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
+                  - { name: icon, label: Icon SVG, type: string, required: true }
+                  # - { name: icon, label: Icon, type: image, required: true, options: { media: vectors, extensions: [svg] } }
 
   - name: projects
     label: Projects
