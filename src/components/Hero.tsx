@@ -9,6 +9,7 @@ import { AnimatePresence, motion } from "motion/react";
 import AnimatedText from "./AnimatedText";
 import { useEffect, useState } from "react";
 import Loader from "./Loader";
+import LoadingError from "./LoadingError";
 
 interface HeroProps {
   contacts?: Contacts;
@@ -118,15 +119,11 @@ export default function Hero({ contacts, status, error }: HeroProps) {
           )}
 
           {showError && (
-            <motion.div
-              key="contactCardsError"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-center text-sm text-red-500"
-            >
-              <p>{t("common.error")}</p>
-              {error && <p>{error}</p>}
-            </motion.div>
+            <LoadingError
+              key="loadingError"
+              text={t("common.error")}
+              error={error}
+            />
           )}
         </AnimatePresence>
       </div>

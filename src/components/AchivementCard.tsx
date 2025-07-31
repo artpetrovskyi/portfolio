@@ -2,6 +2,7 @@ import Markdown from "react-markdown";
 import LinkBtn from "./LinkBtn";
 import { useLanguage } from "@/hooks/useLanguage";
 import type { AchievementItem } from "@/lib/types";
+import { Skeleton } from "./ui/skeleton";
 
 export default function AchivementCard({
   body,
@@ -22,3 +23,14 @@ export default function AchivementCard({
     </div>
   );
 }
+
+export const AchievementCardSkeleton = () => {
+  return (
+    <Skeleton className="card gap-10 !p-6">
+      <Skeleton className="mb-5 h-7"></Skeleton>
+      <div className="flex justify-end">
+        <Skeleton className="h-5 w-32"></Skeleton>
+      </div>
+    </Skeleton>
+  );
+};

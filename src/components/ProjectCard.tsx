@@ -34,7 +34,7 @@ export default function ProjectCard({ link, image, title, body }: ProjectItem) {
         <h3>{title[currentLang]}</h3>
       </a>
 
-      <div className="prose dark:prose-invert prose-sm prose-neutral prose-li:m-0 prose-li:p-0 mb-5 max-w-none flex-1">
+      <div className="prose dark:prose-invert prose-sm prose-neutral prose-li:m-0 prose-li:pl-0 prose-ul:pl-4.5 mb-5 max-w-none flex-1">
         <Markdown>{body[currentLang]}</Markdown>
       </div>
 
@@ -49,13 +49,10 @@ export const ProjectCardSkeleton = () => {
   return (
     <Skeleton className="card flex h-full flex-col">
       <Skeleton className="ibg mb-5 pb-[60%]"></Skeleton>
-
       <Skeleton className="mb-4 h-12"></Skeleton>
-
       <Skeleton className="mb-5 h-[17rem]"></Skeleton>
-
       <div>
-        <Skeleton className="mx-auto h-5 w-24"></Skeleton>
+        <Skeleton className="mx-auto h-6 w-24"></Skeleton>
       </div>
     </Skeleton>
   );

@@ -23,7 +23,7 @@ export default function Loader({ duration = 5, onComplete }: Props) {
   return (
     <motion.div
       style={{
-        opacity: useTransform(progress, [0, 100], [0, 1]),
+        opacity: useTransform(progress, [0, 80], [0, 1]),
       }}
       className="relative w-full sm:min-w-96 min-w-64"
     >
@@ -35,7 +35,7 @@ export default function Loader({ duration = 5, onComplete }: Props) {
         <motion.div
           className="bg-gradient absolute top-0 left-1/2 h-full w-full -translate-x-1/2"
           style={{
-            scaleX: useTransform(progress, [0, 100], [0, 1]),
+            scaleX: useTransform(progress, [0, 99], [0, 1]),
           }}
           transition={{ ease: "easeInOut" }}
         />

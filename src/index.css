@@ -155,6 +155,10 @@
     font-family: "Manrope", sans-serif;
     letter-spacing: 0.02em;
   }
+
+  svg {
+    @apply block h-full w-full;
+  }
 }
 
 @layer components {
