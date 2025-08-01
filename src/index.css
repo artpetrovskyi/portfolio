@@ -147,7 +147,7 @@
   }
 
   html {
-    @apply scrollbar-thin scrollbar-thumb-ring scrollbar-track-background overflow-y-scroll;
+    @apply scrollbar-thin scrollbar-thumb-ring scrollbar-track-background relative overflow-y-scroll;
   }
 
   body {

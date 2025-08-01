@@ -9,6 +9,7 @@ import AchivementCard, { AchievementCardSkeleton } from "./AchivementCard";
 import LoadingError from "./LoadingError";
 import { useDelayedSuccess } from "@/hooks/useDelayedSuccess";
 import { Skeleton } from "./ui/skeleton";
+import Reveal from "./Reveal";
 
 interface AboutProps {
   about?: About;
@@ -33,63 +34,78 @@ export default function About({
     <Section id="about">
       <SectionTitle>{t("about.title")}</SectionTitle>
 
+      {/* ABOUT SECTION */}
       {status === "error" ? (
         <LoadingError text={t("common.error")} error={error} />
       ) : (
         <>
-          {!showContent && <AboutSkeleton />}
-
-          {showContent && (
-            <div className="card mb-5 flex flex-col gap-10 !p-6 md:mb-10 md:flex-row">
-              <div className="ibg w-full flex-[0_0_35%] self-center overflow-hidden rounded-xl pb-[120%] min-[500px]:min-h-96 min-[500px]:w-80 min-[500px]:pb-[45%] md:w-auto md:self-auto md:rounded-r-none">
-                <img
-                  src={import.meta.env.VITE_API_URL + about?.photo}
-                  alt="Artem Petrovskyi"
-                  width={420}
-                  height={540}
-                  loading="lazy"
-                  className="object-top"
-                />
-              </div>
-              <div className="flex flex-col gap-10">
-                <div className="prose dark:prose-invert prose-neutral max-w-none flex-1">
-                  <Markdown>{about?.body[currentLang]}</Markdown>
-                </div>
-                <ul className="space-y-4">
-                  {contacts?.items.map((contact) => (
-                    <li key={contact.link}>
-                      {contact.name}:{" "}
-                      <a
-                        href={contact.link}
-                        target="_blank"
-                        className="opacity-70 transition-opacity duration-200 hover:opacity-100"
-                      >
-                        {contact.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          )}
           {!showContent && (
-            <ul className="space-y-5">
-              {Array.from({ length: 1 }).map((_, i) => (
-                <li key={`AchievementCardSkeleton-${i}`}>
-                  <AchievementCardSkeleton />
-                </li>
-              ))}
-            </ul>
+            <Reveal>
+              <AboutSkeleton />{" "}
+            </Reveal>
           )}
 
           {showContent && (
-            <ul className="space-y-5">
-              {achievements?.map((achievement) => (
-                <li key={achievement.link}>
-                  <AchivementCard {...achievement} />
-                </li>
-              ))}
-            </ul>
+            <Reveal>
+              <div className="card mb-5 flex flex-col gap-10 !p-6 md:mb-10 md:flex-row">
+                <div className="ibg w-full flex-[0_0_35%] self-center overflow-hidden rounded-xl pb-[120%] min-[500px]:min-h-96 min-[500px]:w-80 min-[500px]:pb-[45%] md:w-auto md:self-auto md:rounded-r-none">
+                  <img
+                    src={import.meta.env.VITE_API_URL + about?.photo}
+                    alt="Artem Petrovskyi"
+                    width={420}
+                    height={540}
+                    loading="lazy"
+                    className="object-top"
+                  />
+                </div>
+                <div className="flex flex-col gap-10">
+                  <div className="prose dark:prose-invert prose-neutral max-w-none flex-1">
+                    <Markdown key={currentLang}>
+                      {about?.body[currentLang]}
+                    </Markdown>
+                  </div>
+                  <ul className="space-y-4">
+                    {contacts?.items.map((contact) => (
+                      <li key={contact.link}>
+                        {contact.name}:{" "}
+                        <a
+                          href={contact.link}
+                          target="_blank"
+                          className="opacity-70 transition-opacity duration-200 hover:opacity-100"
+                        >
+                          {contact.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </Reveal>
+          )}
+
+          {/* Achievement cards */}
+          {!showContent && (
+            <Reveal>
+              <ul className="space-y-5">
+                {Array.from({ length: 1 }).map((_, i) => (
+                  <li key={`AchievementCardSkeleton-${i}`}>
+                    <AchievementCardSkeleton />
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+          )}
+
+          {showContent && (
+            <Reveal>
+              <ul className="space-y-5">
+                {achievements?.map((achievement) => (
+                  <li key={achievement.link}>
+                    <AchivementCard {...achievement} />
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
           )}
         </>
       )}

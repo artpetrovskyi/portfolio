@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from "react";
 // It prevents flicker if the fetch is too fast, but doesn't delay unnecessarily if the fetch is slow.
 export function useDelayedSuccess(
   status: string,
-  delay: number = 300,
+  delay: number = 1000,
 ): boolean {
   const [showContent, setShowContent] = useState(false);
 

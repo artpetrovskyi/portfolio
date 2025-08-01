@@ -35,7 +35,7 @@ export default function ProjectCard({ link, image, title, body }: ProjectItem) {
       </a>
 
       <div className="prose dark:prose-invert prose-sm prose-neutral prose-li:m-0 prose-li:pl-0 prose-ul:pl-4.5 mb-5 max-w-none flex-1">
-        <Markdown>{body[currentLang]}</Markdown>
+        <Markdown key={currentLang}>{body[currentLang]}</Markdown>
       </div>
 
       <div className="text-center">

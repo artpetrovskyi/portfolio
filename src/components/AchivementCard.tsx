@@ -14,7 +14,7 @@ export default function AchivementCard({
   return (
     <div className="card gap-10 !p-6">
       <div className="prose dark:prose-invert prose-neutral prose-a:no-underline mb-5 max-w-none">
-        <Markdown>{body[currentLang]}</Markdown>
+        <Markdown key={currentLang}>{body[currentLang]}</Markdown>
       </div>
 
       <div className="flex justify-end">

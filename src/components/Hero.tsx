@@ -47,13 +47,16 @@ export default function Hero({ contacts, status, error }: HeroProps) {
   }, [status, animationFinished]);
 
   const listVariants = {
-    hidden: { opacity: 0, height: 0 },
+    hidden: {
+      opacity: 0,
+      // height: 0
+    },
     visible: {
       opacity: 1,
-      height: "auto",
+      // height: "auto",
       transition: {
         duration: 0.6,
-        staggerChildren: 0.1,
+        staggerChildren: 0.1, // The staggerChildren setting only works if the motion.div has direct children that are also motion components with their own variants.
       },
     },
   };

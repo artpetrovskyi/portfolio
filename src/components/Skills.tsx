@@ -6,6 +6,7 @@ import type { Skills } from "@/lib/types";
 import { useTranslation } from "react-i18next";
 import { useDelayedSuccess } from "@/hooks/useDelayedSuccess";
 import LoadingError from "./LoadingError";
+import Reveal from "./Reveal";
 
 interface SkillsProps {
   skills?: Skills;
@@ -34,7 +35,9 @@ export default function Skills({ skills, status, error }: SkillsProps) {
       ) : (
         <div className="flex flex-col gap-10 md:flex-row lg:gap-20">
           <div className="flex-1">
-            <h3 className="mb-5">{t("skills.development")}</h3>
+            <Reveal>
+              <h3 className="mb-5">{t("skills.development")}</h3>
+            </Reveal>
 
             {!showContent && (
               <Column>
@@ -55,7 +58,9 @@ export default function Skills({ skills, status, error }: SkillsProps) {
           </div>
 
           <div className="flex-1">
-            <h3 className="mb-5">{t("skills.design")}</h3>
+            <Reveal>
+              <h3 className="mb-5">{t("skills.design")}</h3>
+            </Reveal>
 
             {!showContent && (
               <Column>
