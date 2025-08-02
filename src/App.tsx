@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import type { GeneralData } from "./lib/types";
 import { useFetchContent } from "./hooks/useFetchContent";
+import { useLanguage } from "./hooks/useLanguage";
 
 function App() {
   const {
@@ -14,6 +15,8 @@ function App() {
     status,
     error,
   } = useFetchContent<GeneralData>("content/general.json");
+
+  useLanguage();
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">

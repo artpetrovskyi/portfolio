@@ -138,7 +138,7 @@ export default function Hero({ contacts, status, error }: HeroProps) {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 translate-y-1/2"
       >
         <Button variant="link" size="icon" className="group" asChild>
-          <Link to="projects" smooth={true} duration={500}>
+          <Link to="projects" href={"#projects"} smooth={true} duration={500}>
             <ChevronDown className="size-5 animate-bounce opacity-50 transition-opacity duration-200 group-hover:opacity-100" />
           </Link>
         </Button>

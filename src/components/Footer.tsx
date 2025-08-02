@@ -6,7 +6,7 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="container pt-12 pb-8">
+    <footer className="container pt-12 pb-5 sm:pb-8">
       <Reveal>
         <p className="text-muted-foreground flex-1 text-justify text-sm">
           © {currentYear} {t("common.name")}. {t("footer.text")}

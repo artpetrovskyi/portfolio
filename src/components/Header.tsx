@@ -48,6 +48,7 @@ export default function Header() {
               <li key={link.anchor} className="text-center">
                 <Link
                   to={link.anchor}
+                  href={`#${link.anchor}`}
                   // offset={-100}
                   smooth={true}
                   duration={500}

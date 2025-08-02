@@ -17,6 +17,7 @@ export function ModeToggle() {
 
   return (
     <Button
+      aria-label="Toggle light and dark mode"
       variant="secondary"
       className="flex items-center gap-3"
       onClick={toggleTheme}
