@@ -2,8 +2,8 @@
   "about": {
     "photo": "/images/artem_petrovskyi.jpg",
     "body": {
-      "en": "Hi there, I'm Artem, a passionate front-end developer.\n\nI've honed my skills in crafting pixel-perfect interfaces and bringing them to life through clean, performant code. I'm proficient in HTML, CSS, SASS & SCSS, CSS frameworks like Tailwind, JavaScript, TypeScript, React, Redux Toolkit and I love building interactive features that enhance user experience.\n\nCheck out my works to see some of my recent projects. I'm always eager to learn and collaborate, so let's connect on Telegram or drop me a line at e-mail. Looking forward to hearing from you!",
-      "ru": "Hi there, I'm Artem, a passionate front-end developer.\n\nI've honed my skills in crafting pixel-perfect interfaces and bringing them to life through clean, performant code. I'm proficient in HTML, CSS, SASS & SCSS, CSS frameworks like Tailwind, JavaScript, TypeScript, React, Redux Toolkit and I love building interactive features that enhance user experience.\n\nCheck out my works to see some of my recent projects. I'm always eager to learn and collaborate, so let's connect on Telegram or drop me a line at e-mail. Looking forward to hearing from you!"
+      "en": "Hey! I’m Artem - a front-end developer who loves building clean, modern websites that look good and work great.\n\nI enjoy designing nice-looking layouts and turning them into fast, responsive sites using tools like React or Next.js. Whether it’s a simple landing page or a full web app, I’m all about smooth user experiences and clean code.\n\nFeel free to check out some of my projects. I'm always down to learn something new or team up on exciting ideas, so if you wanna chat, just message me on Telegram or send me an email. Let’s connect!",
+      "ru": "Привет! Я Артём, фронтенд-разработчик, который обожает создавать современные сайты: стильные, удобные и быстрые.\n\nМне нравится придумывать красивые макеты и превращать их в крутые, адаптивные сайты с помощью таких инструментов, как React или Next.js. Будь то простой лендинг или полноценное веб-приложение. Я за плавный пользовательский опыт и чистый код.\n\nНе стесняйся посмотреть некоторые из моих проектов. Я всегда открыт новому и готов поработать вместе над интересными идеями. Если хочешь пообщаться — пиши в Telegram или на почту. До связи!"
     }
   },
   "achievements": [
@@ -15,8 +15,8 @@
         "ru": "Перейти в мой профиль"
       },
       "body": {
-        "en": "I am featured on [verstaem.online](http://verstaem.online) as a front-end developer, where I share my projects, experience, and skills.",
-        "ru": "I am featured on [verstaem.online](http://verstaem.online) as a front-end developer, where I share my projects, experience, and skills."
+        "en": "You can find me on [verstaem.online](https://verstaem.online/people/artem_petrovskyi/), where I share my projects, experience, and skills as a front-end developer.",
+        "ru": "Меня можно найти на [verstaem.online](https://verstaem.online/people/artem_petrovskyi/), где я, как фронтенд-разработчик, делюсь своими проектами, опытом и навыками."
       }
     }
   ],
