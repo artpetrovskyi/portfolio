@@ -4,12 +4,12 @@ media:
     input: images
     output: /images
 
-  - name: vectors
-    label: Vectors
-    input: images/icons
-    output: /images/icons
-    extensions: [svg]
-    categories: [image]
+  # - name: vectors
+  #   label: Vectors
+  #   input: images/icons
+  #   output: /images/icons
+  #   extensions: [svg]
+  #   categories: [image]
     
 content:
   - name: general
