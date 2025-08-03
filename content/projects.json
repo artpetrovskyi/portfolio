@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "image": "/images/projects/norimania.png",
+      "title": {
+        "en": "Norimania – Modern Sushi Shop Web App",
+        "ru": "Norimania — Современный суши‑шоп на Next.js"
+      },
+      "body": {
+        "en": "Next.js application with registration, shopping cart and search of products. Modern design and user-friendly interface for comfortable online order sushi.\n\n**Features:**\n\n*   User registration and login\n    \n*   Shopping cart functionality\n    \n*   Product search",
+        "ru": "Приложение с регистрацией, корзиной и поиском товаров. Удобный интерфейс и современный дизайн для онлайн‑заказа суши.\n\n**Функции:**\n\n*   Регистрация и авторизация пользователей\n    \n*   Функционал корзины\n    \n*   Поиск товаров"
+      },
+      "link": "https://norimania-website.vercel.app/"
+    },
+    {
       "image": "/images/projects/caseprint.png",
       "title": {
         "en": "CasePrint – Custom Photo Phone‑Case Builder",
@@ -47,6 +59,42 @@
         "ru": "Чистый и стильный фронтенд для магазина одежды. Включает сетку товаров, удобную навигацию и адаптивный дизайн. Сделано на **HTML, CSS и JavaScript** для высокой скорости и лёгкости.\n\n**Функции:**\n\n*   Сетка товаров с эффектами наведения\n    \n*   Адаптивная верстка для мобильных устройств\n    \n*   Лёгкий и современный дизайн для e-commerce"
       },
       "link": "https://artpetrovskyi.github.io/coral-shop/"
+    },
+    {
+      "image": "/images/projects/welbex.png",
+      "title": {
+        "en": "Welbex – Stylish Landing with Cool Animations",
+        "ru": "Welbex — Стильный лендинг с классными анимациями"
+      },
+      "body": {
+        "en": "A sleek landing page built with HTML, CSS, and JavaScript featuring smooth, eye-catching animations and modern design.\n\n**Features:**\n\n*   Stylish and modern UI\n    \n*   Smooth CSS and JS animations\n    \n*   Fully responsive layout",
+        "ru": "Красивый лендинг на HTML, CSS и JavaScript с плавными эффектами и современным дизайном.\n\n**Функции:**\n\n*   Стильный и современный интерфейс\n    \n*   Плавные CSS и JS анимации\n    \n*   Адаптивная верстка"
+      },
+      "link": "https://artpetrovskyi.github.io/welbex/"
+    },
+    {
+      "image": "/images/projects/teplodom.png",
+      "title": {
+        "en": "Teplodom – Clean Corporate Website",
+        "ru": "Teplodom — корпоративный сайт"
+      },
+      "body": {
+        "en": "A professional landing page built with HTML, CSS, and JavaScript. Features clear layout, responsive design, and user-friendly navigation for a heating solutions company.\n\n**Features:**\n\n*   Clean and minimalistic design\n    \n*   Responsive layout for all devices\n    \n*   Easy navigation and clear structure",
+        "ru": "Профессиональный лендинг на HTML, CSS и JavaScript. Четкий макет, адаптивный дизайн и удобная навигация для компании по отоплению.\n\n**Функции:**\n\n*   Чистый и минималистичный дизайн\n    \n*   Адаптивная верстка под все устройства\n    \n*   Простая и понятная навигация"
+      },
+      "link": "https://artpetrovskyi.github.io/teplodom/"
+    },
+    {
+      "image": "/images/projects/perfume-shop.png",
+      "title": {
+        "en": "Perfume Shop – Stylish Online Store",
+        "ru": "Perfume Shop — Стильный интернет-магазин"
+      },
+      "body": {
+        "en": "A sleek perfume e-commerce landing page built with HTML, CSS, and JavaScript. Features modern design, product showcase, and responsive layout.\n\n**Features:**\n\n*   Modern, elegant UI\n    \n*   Product showcase section\n    \n*   Fully responsive design",
+        "ru": "Красивый лендинг парфюмерного магазина на HTML, CSS и JavaScript. Современный дизайн, презентация товаров и адаптивность.\n\n**Функции:**\n\n*   Современный и элегантный интерфейс\n    \n*   Раздел с товарами\n    \n*   Полная адаптивность"
+      },
+      "link": "https://artpetrovskyi.github.io/perfume-shop/"
     }
   ]
 }
