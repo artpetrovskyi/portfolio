@@ -2,8 +2,8 @@
   "about": {
     "photo": "/images/artem_petrovskyi.jpg",
     "body": {
-      "en": "Hey! I’m Artem - a front-end developer who loves building clean, modern websites that look good and work great.\n\nI enjoy designing nice-looking layouts and turning them into fast, responsive sites using tools like React or Next.js. Whether it’s a simple landing page or a full web app, I’m all about smooth user experiences and clean code.\n\nFeel free to check out some of my projects. I'm always down to learn something new or team up on exciting ideas, so if you wanna chat, just message me on Telegram or send me an email. Let’s connect!",
-      "ru": "Привет! Я Артём, фронтенд-разработчик, который обожает создавать современные сайты: стильные, удобные и быстрые.\n\nМне нравится придумывать красивые макеты и превращать их в крутые, адаптивные сайты с помощью таких инструментов, как React или Next.js. Будь то простой лендинг или полноценное веб-приложение. Я за плавный пользовательский опыт и чистый код.\n\nНе стесняйся посмотреть некоторые из моих проектов. Я всегда открыт новому и готов поработать вместе над интересными идеями. Если хочешь пообщаться — пиши в Telegram или на почту. До связи!"
+      "en": "Hey! I’m a front-end developer who loves building clean, modern websites that look good and work great.\n\nI enjoy designing thoughtful, beautiful layouts and turning them into responsive, user-friendly websites using React or Next.js. Whether it’s a simple landing page or a full web app, I care about clean code, polished design, and a smooth user experience.\n\nI'm always eager to learn and collaborate, so let's connect on Telegram or drop me a line at e-mail. Let’s connect!",
+      "ru": "Привет! Я фронтенд-разработчик, который обожает создавать современные, стильные и удобные сайты.\n\nЯ люблю разрабатывать продуманные и красивые макеты, а затем превращать их в адаптивные и удобные сайты с помощью React или Next.js. Неважно, идёт ли речь о простом лендинге или полном веб-приложении — для меня важны чистый код, аккуратный дизайн и приятный пользовательский опыт.\n\nОткрыт новым идеям и всегда рад поработать вместе. Если интересно сотрудничество, пишите в Telegram или на почту. До связи!"
     }
   },
   "achievements": [
@@ -15,8 +15,8 @@
         "ru": "Перейти в мой профиль"
       },
       "body": {
-        "en": "You can find me on **verstaem.online**, where I share my projects, experience, and skills as a front-end developer.",
-        "ru": "Меня можно найти на **verstaem.online**, где я, как фронтенд-разработчик, делюсь своими проектами, опытом и навыками."
+        "en": "You can find me on _verstaem.online_, where I share my experience and skills as a front-end developer.",
+        "ru": "Меня можно найти на _verstaem.online_, где я, как фронтенд-разработчик, делюсь своими опытом и навыками."
       }
     }
   ],
