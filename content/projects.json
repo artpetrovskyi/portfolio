@@ -16,7 +16,7 @@
       "image": "/images/projects/caseprint.png",
       "title": {
         "en": "CasePrint – Custom Photo Phone‑Case Builder",
-        "ru": "CasePrint – Конструктор чехлов с фото"
+        "ru": "CasePrint — Конструктор чехлов с фото"
       },
       "body": {
         "en": "A modern web app for customizing phone cases. Users can upload photos and instantly preview their design. Built with **Next.js**, fully responsive, and deployed on Vercel.\n\n**Features:**\n\n*   Upload your own image\n    \n*   Instant live preview on phone case\n    \n*   Responsive design for all devices",
@@ -28,11 +28,11 @@
       "image": "/images/projects/ecomarket.png",
       "title": {
         "en": "EcoMarket – Sustainable E‑Commerce Platform",
-        "ru": "EcoMarket – Эко‑маркет для онлайн‑покупок"
+        "ru": "EcoMarket — Эко‑маркет для онлайн‑покупок"
       },
       "body": {
-        "en": "A modern online store built with **Next.js**, focused on eco-friendly products. Includes intuitive navigation, product listings, and a responsive design for seamless shopping on any device.\n\n**Features:**\n\n*   Clean, minimal UI for product browsing\n    \n*   Responsive design for desktop and mobile\n    \n*   Optimized performance and SEO with Next.js",
-        "ru": "Современный интернет-магазин, созданный на **Next.js**, с акцентом на экологичные товары. Удобная навигация, карточки товаров и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Оптимизация скорости и SEO на Next.js"
+        "en": "A modern online store built with **React**, focused on eco-friendly products. Includes intuitive navigation, product listings, and a responsive design for seamless shopping on any device.\n\n**Features:**\n\n*   Clean, minimal UI for product browsing\n    \n*   Responsive design for desktop and mobile\n    \n*   Optimized performance and SEO with Next.js",
+        "ru": "Современный интернет-магазин, созданный на **React**, с акцентом на экологичные товары. Удобная навигация, карточки товаров и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Оптимизация скорости и SEO на Next.js"
       },
       "link": "https://ecomarket.vercel.app/"
     },
