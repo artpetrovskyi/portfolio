@@ -31,8 +31,8 @@
         "ru": "EcoMarket — Эко‑маркет для онлайн‑покупок"
       },
       "body": {
-        "en": "A modern online store built with **React**, focused on eco-friendly products. Includes intuitive navigation, product listings, and a responsive design for seamless shopping on any device.\n\n**Features:**\n\n*   Clean, minimal UI for product browsing\n    \n*   Responsive design for desktop and mobile\n    \n*   Optimized performance and SEO with Next.js",
-        "ru": "Современный интернет-магазин, созданный на **React**, с акцентом на экологичные товары. Удобная навигация, карточки товаров и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Оптимизация скорости и SEO на Next.js"
+        "en": "A modern online store built with **React**, focused on eco-friendly products. Includes intuitive navigation, product listings, search and a responsive design for seamless shopping on any device.\n\n**Features:**\n\n*   Clean, minimal UI for product browsing\n    \n*   Responsive design for desktop and mobile\n    \n*   Clean, modern UI design",
+        "ru": "Современный интернет-магазин, созданный на **React**, с акцентом на экологичные товары. Удобная навигация, карточки товаров, поиск и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Чистый и современный дизайн"
       },
       "link": "https://ecomarket.vercel.app/"
     },
