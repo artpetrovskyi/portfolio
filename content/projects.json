@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "image": "/images/projects/chicago-hendriks.png",
+      "title": {
+        "en": "Chicago Hendriks – Unique Style & Animations",
+        "ru": "Chicago Hendriks — Уникальный стиль и анимации"
+      },
+      "body": {
+        "en": "A stylish personal portfolio with a distinctive design and captivating animations. Built using **React, Tailwind CSS, and TypeScript** for a modern, fast, and responsive experience.\n\n**Features:**\n\n*   Distinctive, artistic visual style\n    \n*   Smooth, dynamic animations\n    \n*   Responsive layout for all devices",
+        "ru": "Стильное портфолио с выразительным дизайном и впечатляющими анимациями. Разработано на **React, Tailwind CSS и TypeScript** для современного, быстрого и адаптивного интерфейса.\n\n**Функции:**\n\n*   Уникальный визуальный стиль\n    \n*   Плавные и динамичные анимации\n    \n*   Адаптивная верстка под все устройства"
+      },
+      "link": "https://artpetrovskyi.github.io/portfolio-chicago-hendriks/"
+    },
+    {
       "image": "/images/projects/norimania.png",
       "title": {
         "en": "Norimania – Modern Sushi Shop Web App",
@@ -11,6 +23,18 @@
         "ru": "Приложение с регистрацией, корзиной и поиском товаров. Удобный интерфейс и современный дизайн для онлайн‑заказа суши.\n\n**Функции:**\n\n*   Регистрация и авторизация пользователей\n    \n*   Функционал корзины\n    \n*   Поиск товаров"
       },
       "link": "https://norimania-website.vercel.app/"
+    },
+    {
+      "image": "/images/projects/mostehviveska.png",
+      "title": {
+        "en": "Mostehviveska – Corporate Website for Engineering Company",
+        "ru": "Мостехвывеска — Корпоративный сайт для инженерной компании"
+      },
+      "body": {
+        "en": "A professional multi‑page website for a construction and signage company. Includes service descriptions, portfolio gallery, and contact integration. Designed for clarity, responsiveness, and fast performance.\n\n**Features:**\n\n*   Multi-page corporate website structure\n    \n*   Service and portfolio presentation\n    \n*   Responsive design for all devices",
+        "ru": "Профессиональный многостраничный сайт для компании по производству вывесок и строительных решений. Включает описание услуг, галерею проектов и форму связи. Адаптивный дизайн и высокая скорость загрузки.\n\n**Функции:**\n\n*   Многостраничная структура сайта\n    \n*   Разделы с услугами и портфолио\n    \n*   Адаптивный дизайн для всех устройств"
+      },
+      "link": "https://mostehviveska.ru/"
     },
     {
       "image": "/images/projects/caseprint.png",
@@ -35,18 +59,6 @@
         "ru": "Современный интернет-магазин, созданный на **React**, с акцентом на экологичные товары. Удобная навигация, карточки товаров, поиск и адаптивный дизайн для любых устройств.\n\n**Функции:**\n\n*   Чистый минималистичный интерфейс\n    \n*   Адаптивный дизайн для ПК и смартфонов\n    \n*   Чистый и современный дизайн"
       },
       "link": "https://ecomarket.vercel.app/"
-    },
-    {
-      "image": "/images/projects/mostehviveska.png",
-      "title": {
-        "en": "Mostehviveska – Corporate Website for Engineering Company",
-        "ru": "Мостехвывеска — Корпоративный сайт для инженерной компании"
-      },
-      "body": {
-        "en": "A professional multi‑page website for a construction and signage company. Includes service descriptions, portfolio gallery, and contact integration. Designed for clarity, responsiveness, and fast performance.\n\n**Features:**\n\n*   Multi-page corporate website structure\n    \n*   Service and portfolio presentation\n    \n*   Responsive design for all devices",
-        "ru": "Профессиональный многостраничный сайт для компании по производству вывесок и строительных решений. Включает описание услуг, галерею проектов и форму связи. Адаптивный дизайн и высокая скорость загрузки.\n\n**Функции:**\n\n*   Многостраничная структура сайта\n    \n*   Разделы с услугами и портфолио\n    \n*   Адаптивный дизайн для всех устройств"
-      },
-      "link": "https://mostehviveska.ru/"
     },
     {
       "image": "/images/projects/coral-shop.png",
