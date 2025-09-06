@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "image": "/images/projects/anastasiahutina.png",
+      "title": {
+        "en": "Anastasia Hutina – UX/UI Designer Portfolio",
+        "ru": "Anastasia Hutina — Портфолио UX/UI-дизайнера"
+      },
+      "body": {
+        "en": "A stylish portfolio site created for a UX/UI designer, built with **React** and integrated with a **CMS (admin panel)** for easy content management.\n\n**Features:**\n\n*   Eye-catching animations for a dynamic browsing experience\n    \n*   Custom cursor that enhances user interaction\n    \n*   Multilingual support for broader accessibility",
+        "ru": "Стильный сайт-портфолио для UX/UI-дизайнера на **React** с **CMS (панелью администратора**) для удобного управления контентом.\n\n**Функции:**\n\n*   Захватывающие анимации для живого взаимодействия\n    \n*   Кастомный курсор, улучшающий UX\n    \n*   Поддержка нескольких языков"
+      },
+      "link": "https://anastasiahutina.github.io/portfolio/"
+    },
+    {
       "image": "/images/projects/chicago-hendriks.png",
       "title": {
         "en": "Chicago Hendriks – Unique Style & Animations",
